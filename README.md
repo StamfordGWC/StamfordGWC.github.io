@@ -1,2 +1,2 @@
-## Welcome to Stamford GWC CS Impact Project
+Welcome to Stamford GWC CS Impact Project
 
