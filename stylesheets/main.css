@@ -77,20 +77,11 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* Create three unequal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    padding: 10px;
-}
-
-/* Left and right column */
-.column.side {
     width: 33.33%;
-}
-
-/* Middle column */
-.column.middle {
-    width: 33.33%;
+    padding: 15px;
 }
 
 /* Clear floats after the columns */
