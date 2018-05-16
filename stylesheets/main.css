@@ -80,8 +80,8 @@
 /* Create three equal columns that float next to each other */
 .column {
     float: left;
-    width: 33.33%;
-    border: 5px solid black;
+    width: 33%;
+    border: 2px solid black;
     padding: 0px;
 }
 
