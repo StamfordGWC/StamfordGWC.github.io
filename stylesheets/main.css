@@ -82,7 +82,7 @@
     float: left;
     width: 33%;
     border: 2px solid black;
-    padding: 0px;
+    padding: 5px;
 }
 
 /* Clear floats after the columns */
