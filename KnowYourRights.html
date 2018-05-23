@@ -4,67 +4,56 @@
   <head>
     <title>Know Your Rights</title>
     <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+    <style>
+      * {box-sizing: border-box}
+
+      /* Set height of body and the document to 100% */
+      body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial;
+      }
+
+      /* Style tab links */
+      .tablink {
+          background-color: #555;
+          color: white;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          font-size: 17px;
+          width: 33.32%;
+      }
+
+      .tablink:hover {
+          background-color: #777;
+      }
+
+      /* Style the tab content (and add height:100% for full page content) */
+      .tabcontent {
+          color: white;
+          display: none;
+          padding: 100px 20px;
+          height: 100%;
+      }
+
+      #Home {background-color: #45B39D;}
+      #Work {background-color: green;}
+      #Street {background-color: orange;}
+      </style>
   </head>
 <body>
   <div class="topnav">
-    <a href="https://StamfordGWC.github.io/index.html">Home</a>
-    <a href="https://StamfordGWC.github.io/about.html">About</a>
-    <div class="dropdown">
-      <button class="dropbtn">Know Your Rights</button>
-      <div class="dropdown-content">
-        <a class="active" href="https://StamfordGWC.github.io/KnowYourRights.html#ICEHome">ICE at Home</a>
-        <a class="active" href="https://StamfordGWC.github.io/KnowYourRights.html#ICEWork">ICE at Work</a>
-      </div>
-    </div>
-    <a href="https://StamfordGWC.github.io/arrest.html">In Case of Arrest</a>
-    <a href="https://StamfordGWC.github.io/undocumentedstudents.html">Undocumented Students</a>
-    <a href="https://StamfordGWC.github.io/DACA.html">DACA</a>
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+    <a class="active" href="/KnowYourRights.html">Know Your Rights</a>
+    <a href="/arrest.html">In Case of Arrest</a>
+    <a href="/undocumentedstudents.html">Undocumented Students</a>
+    <a href="/DACA.html">DACA</a>
   </div>
-
-  </div>
-</div>
   <h1>Know Your Rights</h1>
-<style>
-  * {box-sizing: border-box}
-
-  /* Set height of body and the document to 100% */
-  body, html {
-      height: 100%;
-      margin: 0;
-      font-family: Arial;
-  }
-
-  /* Style tab links */
-  .tablink {
-      background-color: #555;
-      color: white;
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      font-size: 17px;
-      width: 33.32%;
-  }
-
-  .tablink:hover {
-      background-color: #777;
-  }
-
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
-      color: white;
-      display: none;
-      padding: 100px 20px;
-      height: 100%;
-  }
-
-  #Home {background-color: red;}
-  #Work {background-color: green;}
-  #Street {background-color: orange;}
-  </style>
-  </head>
-  <body>
   <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
   <button class="tablink" onclick="openPage('Work', this, 'green')">Work</button>
   <button class="tablink" onclick="openPage('Street', this, 'orange')">Street</button>
