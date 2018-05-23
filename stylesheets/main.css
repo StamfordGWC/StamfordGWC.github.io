@@ -94,5 +94,6 @@
 }
 /* Add color to h1 tags */
 .h1 {
-  color: #45B39D;
+  text-decoration-color: #45B39D;
+  font-family: Impact, sans-serif;
 }
