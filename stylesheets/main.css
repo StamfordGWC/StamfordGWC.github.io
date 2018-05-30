@@ -92,3 +92,8 @@
     display: table;
     clear: both;
 }
+/* Add color to h1 tags */
+h1 {
+  color: #45B39D;
+  font-family: "Comic Sans MS", Arial ,sans-serif;
+}
