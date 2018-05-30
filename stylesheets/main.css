@@ -27,6 +27,8 @@
       background-color: #45B39D;
       color: white;
   }
+
+  /*
   /* The dropdown container */
 .dropdown {
   float: left;
@@ -97,5 +99,5 @@
 /* Add color to h1 tags */
 h1 {
   color: #45B39D;
-  font-family: "Comic Sans MS", Arial ,sans-serif;
+/*  font-family: "Poppins", Arial ,sans-serif; */
 }
