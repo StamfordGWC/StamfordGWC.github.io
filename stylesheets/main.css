@@ -28,6 +28,12 @@
       color: white;
   }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px
+}
+
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -94,8 +100,13 @@
     display: table;
     clear: both;
 }
-/* Add color to h1 tags */
+/* Add color, font to h1 tags */
 h1 {
+  font-family: 'Poppins', sans-serif;
   color: #45B39D;
-/*  font-family: "Poppins", Arial ,sans-serif; */
+}
+/* Add color, font to h2 tags */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #45B39D;
 }
