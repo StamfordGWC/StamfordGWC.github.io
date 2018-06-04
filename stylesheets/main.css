@@ -3,6 +3,7 @@
       background-color: #333;
       font-family: Arial;
       overflow: hidden;
+      margin: 0px;
   }
 
   /* Style the links inside the navigation bar */
@@ -31,6 +32,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 17px
+
 }
 
 /* Add a blue background color to navbar links on hover */
